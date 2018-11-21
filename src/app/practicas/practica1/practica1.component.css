@@ -1,0 +1,37 @@
+header {
+    background: #999966;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+.container-main {
+    height: 250px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+main {
+    background: lightgrey
+}
+
+aside {
+    background: #669999;
+    height: 100px;
+    border: 1px solid black
+}
+
+.widgets {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 150px
+}
+
+.widgets>div {
+    background: #b33c00
+}
+
+footer {
+    background: black;
+    color: white;
+    margin-bottom: 0px
+}

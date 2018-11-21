@@ -1,0 +1,101 @@
+<div class='row justify-content-around'>
+    <div class='col6 '>
+        <button (click)='cambiarPagina(-1)'>Anterior</button>
+    </div>
+    <div class='col6'>
+        <button (click)='cambiarPagina(1)'>Siguiente</button>
+    </div>
+</div>
+
+
+<div class='container' *ngIf="pagina === 1">
+
+    <div class='title'>
+        <h3>PRIMERA SECCIÓN</h3>
+    </div>
+    <div class='row'>
+        <div class='col-6'>
+            <div class='row'>
+                <div class='col-12'>
+                    <button routerLink="/columnasAlineadas" routerLinkActive="router-link-active">Columnas Alineadas</button>
+                </div>
+                <div class='col-12'>
+                    <button routerLink="/offSetting" routerLinkActive="router-link-active">OffSetting</button>
+                </div>
+                <div class='col-12'>
+                    <button routerLink="/reordenamientoColumnas" routerLinkActive="router-link-active">Reordenamiento Columnas</button>
+                </div>
+                <div class='col-12'>
+                    <button routerLink="/columnasAnidadas" routerLinkActive="router-link-active">Columnas Anidadas</button>
+                </div>
+            </div>
+        </div>
+        <div class='col-6'>
+            <div class='row'>
+                <div class='col-12 offset-8'>
+                    <button routerLink="/practica1" routerLinkActive="router-link-active">Practica1</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class='container' *ngIf="pagina === 2">
+    <div class='title'>
+        <h3>SEGUNDA SECCIÓN</h3>
+    </div>
+    <div class='row'>
+        <div class='col-6'>
+            <div class='row justify-content-start'>
+                <div class='col-12'>
+                    <button routerLink="/responsiveUtilities" routerLinkActive="router-link-active">Responsive Utilities</button>
+                </div>
+                <div class='col-12'>
+                    <button routerLink="/tipografia" routerLinkActive="router-link-active">Tipografía</button>
+                </div>
+                <div class='col-12'>
+                    <button routerLink="/bloques_codigo" routerLinkActive="router-link-active">Bloques código</button>
+                </div>
+                <div class='col-12'>
+                    <button routerLink="/imagenes" routerLinkActive="router-link-active">Imágenes</button>
+                </div>
+                <div class='col-12'>
+                    <button routerLink="/tablas" routerLinkActive="router-link-active">Tablas</button>
+                </div>
+                <div class='col-12'>
+                    <button routerLink="/media_object" routerLinkActive="router-link-active">Media Object</button>
+                </div>
+                <div class='col-12'>
+                    <button routerLink="/alertas" routerLinkActive="router-link-active">Alertas</button>
+                </div>
+                <div class='col-12'>
+                    <button routerLink="/badges" routerLinkActive="router-link-active">Badges</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class='container' *ngIf="pagina === 3">
+    <div class='title'>
+        <h3>TERCERA SECCIÓN</h3>
+    </div>
+    <div class='row'>
+        <div class='col-6'>
+            <div class='row justify-content-start'>
+                <div class='col-12'>
+                    <button routerLink="/buttons" routerLinkActive="router-link-active">Buttons</button>
+                </div>
+                <div class='col-12'>
+                    <button routerLink="/cards" routerLinkActive="router-link-active">Cards</button>
+                </div>
+                <div class='col-12'>
+                    <button routerLink="/masonry_cards" routerLinkActive="router-link-active">Masonry cards</button>
+                </div>
+            </div>
+        </div>
+        <div class='col-6'>
+        </div>
+    </div>
+</div>

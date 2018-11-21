@@ -1,0 +1,20 @@
+<button [routerLink]="['/principal',1]" routerLinkActive="router-link-active">PRINCIPAL</button>
+
+<!--Columnas dentro de columnas-->
+<div class='container'>
+    <div class='row'>
+        <div class='col-md-6 columna'>
+            Columna1
+            <div class='row'>
+                <div class='col-3 columna-interior'>Columna3</div>
+                <div class='col-3 columna-interior'>Columna3</div>
+            </div>
+        </div>
+        <div class='col-md-6 columna'>Columna2
+            <div class='row justify-content-around'>
+                <div class='col-4 columna-interior2'>Columna3</div>
+                <div class='col-4 columna-interior2'>Columna3</div>
+            </div>
+        </div>
+    </div>
+</div>

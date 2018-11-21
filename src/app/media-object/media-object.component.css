@@ -1,0 +1,55 @@
+.container {
+    font-family: 'Roboto', sans-serif;
+}
+
+.comentarios {
+    margin: 20px 0px;
+}
+
+.form-comentarios textarea {
+    widows: 100px;
+    height: 84px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 84px;
+    max-height: 300px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+    border: 1px color black;
+    margin-bottom: 20px
+}
+
+.form-comentarios .btn {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+.form-comentarios .btn:hover {
+    box-shadow: 0px 0px 9px
+}
+
+.media {
+    border-top: 1px solid #ff9933;
+    padding: 20px
+}
+
+.media .nombre span {
+    font-size: 13px;
+    color: #b35900;
+    margin-left: 10px;
+}
+
+.media .nombre {
+    font-size: 13px;
+    color: #b35900;
+}
+
+.media .comentario {
+    margin-top: 10px
+}
+
+.media .botones a {
+    color: #FF6133;
+    margin-left: 20px
+}

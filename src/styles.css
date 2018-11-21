@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.columna {
+    background: #cc9900;
+    text-align: center;
+    border: 1px solid black
+}

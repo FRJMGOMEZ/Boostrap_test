@@ -1,0 +1,53 @@
+<!-- Alineamos columnas dentro de las dimensiones del row -->
+
+<button [routerLink]="['/principal',1]" routerLinkActive="router-link-active">PRINCIPAL</button>
+<div class='container'>
+    <h2>COLUMNAS ALINEADAS VERTICALMENTE</h2>
+    <div class='row align-items-lg-start'>
+        <div class='col'>Columna 1</div>
+        <div class='col'>Columna 1</div>
+        <div class='col'>Columna 1</div>
+    </div>
+    <div class='row align-items-center'>
+        <div class='col'>Columna 1</div>
+        <div class='col'>Columna 1</div>
+        <div class='col'>Columna 1</div>
+    </div>
+    <div class='row align-items-end'>
+        <div class='col'>Columna 1</div>
+        <div class='col'>Columna 1</div>
+        <div class='col'>Columna 1</div>
+    </div>
+    <br>
+    <h3>Alineacion independiente</h3>
+    <div class='row'>
+        <div class='col align-self-lg-start'>Columna 1</div>
+        <div class='col align-self-center'>Columna 2</div>
+        <div class='col align-self-end'>Columna 3</div>
+    </div>
+</div>
+<br>
+<br>
+<div class='container'>
+    <h2>COLUMNAS ALINEADAS HORIZONTALMENTE</h2>
+    <div class='row justify-content-center'>
+        <div class='col-4 columna1'>Columna 1</div>
+        <div class='col-4 columna2'>Columna 2</div>
+    </div>
+    <div class='row justify-content-lg-start'>
+        <div class='col-4 columna1'>Columna 1</div>
+        <div class='col-4 columna2'>Columna 2</div>
+    </div>
+    <div class='row justify-content-lg-end'>
+        <div class='col-4 columna1'>Columna 1</div>
+        <div class='col-4 columna2'>Columna 2</div>
+    </div>
+    <div class='row justify-content-around'>
+        <div class='col-4 columna1'>Columna 1</div>
+        <div class='col-4 columna2'>Columna 2</div>
+    </div>
+    <div class='row justify-content-between'>
+        <div class='col-4 columna1'>Columna 1</div>
+        <div class='col-4 columna2'>Columna 2</div>
+    </div>
+</div>
