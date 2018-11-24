@@ -1,0 +1,78 @@
+<button [routerLink]="['/principal',3]" routerLinkActive="router-link-active">PRINCIPAL</button>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <p>
+                <a href="#bloque1" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="bloque1" type='button' class='btn btn-secondary'>Bloque1</a>
+                <a href="#bloque2" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="bloque2" type='button' class='btn btn-secondary'>Bloque2</a>
+            </p>
+            <div class='collapse' id="bloque1">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sunt fugit veniam at delectus eius totam, libero quasi nulla quidem consequuntur error expedita dolore ullam ut quia doloribus, adipisci enim.</p>
+                    </div>
+                </div>
+            </div>
+            <div class='collapse' id="bloque2">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sunt fugit veniam at delectus eius totam, libero quasi nulla quidem consequuntur error expedita dolore ullam ut quia doloribus, adipisci enim.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <div id='accordeon'>
+                <div class="card">
+                    <div class="card-header" id='heading1'>
+                        <h5 class='mb-0'>
+                            <button class='btn btn-link' data-toggle="collapse" data-target='#collapse1' aria-expanded='true' aria-controlls='collapse1'>Contenido1</button>
+                        </h5>
+                    </div>
+                    <div id='collapse1' class="collapse show" arial-labelledby="heading1" data-parent='#accordeon'>
+                        <div class='card-body'>
+                            <h3 class="card-title">
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sunt fugit veniam at delectus eius totam, libero quasi nulla quidem consequuntur error expedita dolore ullam ut quia doloribus, adipisci enim.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id='heading2'>
+                        <h5 class='mb-0'>
+                            <button class='btn btn-link' data-toggle="collapse" data-target='#collapse2' aria-expanded='true' aria-controlls='collapse2'>Contenido2</button>
+                        </h5>
+                    </div>
+                    <div id='collapse2' class="collapse" arial-labelledby="heading2" data-parent='#accordeon'>
+                        <div class='card-body'>
+                            <h3 class="card-title">
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sunt fugit veniam at delectus eius totam, libero quasi nulla quidem consequuntur error expedita dolore ullam ut quia doloribus, adipisci enim.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id='heading3'>
+                        <h5 class='mb-0'>
+                            <button class='btn btn-link' data-toggle="collapse" data-target='#collapse3' aria-expanded='true' aria-controlls='collapse3'>Contenido3</button>
+                        </h5>
+                    </div>
+                    <div id='collapse3' class="collapse" arial-labelledby="heading3" data-parent='#accordeon'>
+                        <div class='card-body'>
+                            <h3 class="card-title">
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sunt fugit veniam at delectus eius totam, libero quasi nulla quidem consequuntur error expedita dolore ullam ut quia doloribus, adipisci enim.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

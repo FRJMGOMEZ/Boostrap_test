@@ -1,0 +1,72 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 mb-5">
+            <button [routerLink]="['/principal',4]" routerLinkActive="router-link-active">PRINCIPAL</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class='col-12'>
+            <form action="">
+                <div class='form-group row'>
+                    <div class="col-md-6">
+                        <label for="nombre">Nombre</label>
+                        <input class='form-control' type="text" placeholder="nombre" id="nombre" name="nombre">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email">Email</label>
+                        <input class='form-control' type="email" placeholder="email" id="email" name="email">
+                    </div>
+                </div>
+                <div class='form-group row'>
+                    <div class="col-md-6">
+                        <label for="password1">Password1</label>
+                        <input class='form-control' type="text" placeholder="password1" id="password1" name="password1">
+                    </div>
+                    <div class='w-100'></div>
+                    <div class="col-md-6 mt-2">
+                        <label for="password2">Password2</label>
+                        <input class='form-control' type="text" placeholder="password2" id="password2" name="password2">
+                    </div>
+                    <div class="col-6 col-md-3 mt-2 ">
+                        <label for="pais">Pais</label>
+                        <select name="pais" id="pais" class='form-control'>
+                            <option value="butan">Butan</option>
+                            <option value="camboya">Camboya</option>
+                            <option value="vietnam">Vietnam</option>
+                        </select>
+                    </div>
+                    <div class='col-6 col-md-3 mt-5'>
+                        <div class='btn-group'>
+                            <div class='form-check mr-2'>
+                                <label class='form-check-label'>
+                                    <input type="radio" class='form-check-input mr-2' name='sexo' id='hombre'>Hombre
+                                </label>
+                            </div>
+                            <div class='form-check mr-2'>
+                                <label class='form-check-label'>
+                                    <input type="radio" class='form-check-input mr-2' name='sexo' id='mujer'>Mujer
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class='mt-2'>
+                        <a class='mb-3' href="">Terminos</a>
+                        <div class='form-check'>
+                            <label class='form-check-label'>
+                  <input type="checkbox" class='form-check-input mr-2' name='sexo' id='mujer'>Acepto
+                </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-8 col-md-6 col-lg-4">
+                        <button class='btn btn-primary btn-block mt-3' type='submit'>Enviar</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>

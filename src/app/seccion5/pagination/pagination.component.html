@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 mb-5">
+            <button [routerLink]="['/principal',5]" routerLinkActive="router-link-active">PRINCIPAL</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <nav>
+                <ul class='pagination'>
+                    <li class='page-item'>
+                        <span class='page-link' aria-hidden="true">Anterior</span>
+                    </li>
+                    <li class='page-item'>
+                        <a [routerLink]="['/principal',1]" routerLinkActive="router-link-active" class='page-link'>1</a>
+                    </li>
+                    <li class='page-item'>
+                        <a href="" class='page-link'>2</a>
+                    </li>
+                    <li class='page-item'>
+                        <a href="" class='page-link'>3</a>
+                    </li>
+                    <li class='page-item'>
+                        <a href="" class='page-link'>4</a>
+                    </li>
+                    <li class='page-item'>
+                        <a href="" class='page-link'>5</a>
+                    </li>
+                    <li class='page-item'>
+                        <a href="" class='page-link'>6</a>
+                    </li>
+                    <li class='page-item'>
+                        <span class='page-link' aria-hidden="true">Siguiente</span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>

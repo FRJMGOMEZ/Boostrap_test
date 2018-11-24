@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 mb-5">
+            <button [routerLink]="['/principal',4]" routerLinkActive="router-link-active">PRINCIPAL</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <form action="">
+                <h4>CheckBox</h4>
+                <div class='form-check'>
+                    <label for="" class="form-check-label">
+                  <input type="checkbox" value='opcion1'>Opción1
+                </label>
+                </div>
+                <div class='form-check disabled'>
+                    <label for="" class="form-check-label">
+                <input type="checkbox" value='opcion1' disabled>Opción2
+              </label>
+                </div>
+                <h4>Radio.buttons</h4>
+                <div class="form-check">
+                    <label for="" class="form-check-label">
+                <input type="radio" name='sexo'id='mujer'value='mujer'>Mujer
+              </label>
+                </div>
+                <div class="form-check disabled">
+                    <label for="" class="form-check-label">
+                <input type="radio" name='sexo' id='hombre' value='hombre' disabled>Hombre
+              </label>
+                </div>
+            </form>
+        </div>
+        <div class="col-12">
+            <form action="">
+                <h4>CheckBox-inline</h4>
+                <div class='form-check-inline'>
+                    <label for="" class="form-check-label">
+                <input type="checkbox" value='opcion1'>Opción1
+              </label>
+                </div>
+                <div class='form-check-inline disabled'>
+                    <label for="" class="form-check-label">
+                <input type="checkbox" value='opcion1' disabled>Opción2
+              </label>
+                </div>
+                <h4>Radio.buttons-inline</h4>
+                <div class="form-check-inline">
+                    <label for="" class="form-check-label">
+                <input type="radio" name='sexo' id='mujer' value='mujer'>Mujer
+              </label>
+                </div>
+                <div class="form-check-inline disabled">
+                    <label for="" class="form-check-label">
+                <input type="radio" name='sexo' id='hombre' value='hombre' disabled>Hombre
+              </label>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

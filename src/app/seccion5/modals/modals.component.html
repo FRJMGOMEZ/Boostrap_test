@@ -1,0 +1,67 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 mb-5">
+            <button [routerLink]="['/principal',5]" routerLinkActive="router-link-active">PRINCIPAL</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <button class='btn btn-secondary' data-toggle="modal" data-target='#modal1'>Abrir Modal</button>
+            <div class='modal fade' id='modal1' tabindex="-1" role='dialog' aria-labelledby="modal1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class='modal-title text-center'>Título de la ventana</h5>
+                            <button class='close' data-dismiss='modal' aria-label='cerrar'>
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h2>Hola mundo</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse itaque eum blanditiis atque facere. Nesciunt excepturi, dignissimos repellat quasi harum reprehenderit et impedit error assumenda enim. Reprehenderit non officiis
+                                voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse itaque eum blanditiis atque facere. Nesciunt excepturi, dignissimos repellat quasi harum reprehenderit et impedit error assumenda enim. Reprehenderit
+                                non officiis voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse itaque eum blanditiis atque facere. Nesciunt excepturi, dignissimos repellat quasi harum reprehenderit et impedit error assumenda enim.
+                                Reprehenderit non officiis voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse itaque eum blanditiis atque facere. Nesciunt excepturi, dignissimos repellat quasi harum reprehenderit et impedit error
+                                assumenda enim. Reprehenderit non officiis voluptatum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class='btn btn-secondary' data-toggle="modal" data-target='#modal2'>Abrir Modal con grid</button>
+            <div class='modal fade' id='modal2' tabindex="-1" role='dialog' aria-labelledby="modal2" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class='modal-title'>GRID</h5>
+                            <button class='close' data-dismiss='modal' aria-label='cerrar'>
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class='container-fluid'>
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In expedita sed corrupti amet laborum inventore iste, iure nesciunt magnam nam voluptatibus magni tempore molestiae ea eligendi repudiandae officiis consequatur
+                                            autem.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In expedita sed corrupti amet laborum inventore iste, iure nesciunt magnam nam voluptatibus magni tempore molestiae ea eligendi repudiandae officiis consequatur
+                                            autem.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer justify-content-center">
+                            <button class='btn btn-success'>Aceptar</button>
+                            <button class='btn btn-default' data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

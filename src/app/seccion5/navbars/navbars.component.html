@@ -1,0 +1,60 @@
+<nav class='navbar navbar-expand-lg navbar-light bg-dark '>
+    <div class="container">
+        <img src="../../../assets/img/cargo.jpg" alt="" width=70px height=70px>
+        <button type='button' class='navbar-toggler' data-toggle='collapse' data-target='#navbar' aria-controls='#navbar' aria-expanded="false" aria-label="MENU">
+          <span class="navbar-toggler-icon">
+          </span>
+        </button>
+        <div class="collapse navbar-collapse " id='navbar'>
+            <ul class='navbar-nav mr-auto mi-nav mi-nav'>
+                <div class="col-4 mr-lg-1 ml-lg-5">
+                    <li class='nav-item dropdown'>
+                        <a href="" class='nav-link dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup="true" aria-expanded="false">
+                    Perfil
+                  </a>
+                        <div class="dropdown-menu bg-dark">
+                            <a class='dropdown-item' href="">About the light</a>
+                            <a class='dropdown-item' href="">About the dark</a>
+                        </div>
+                    </li>
+                </div>
+                <div class="col-4 mr-lg-1 ">
+                    <li class='nav-item '>
+                        <a href="" class='nav-link'>Proyectos</a>
+                    </li>
+                </div>
+                <div class="col-4 mr-lg-1 ">
+                    <li class='nav-item '>
+                        <a href="" class='nav-link'>Calendario</a>
+                    </li>
+                </div>
+                <!--cambiamos el portal según sea admnistrador profesor o empleado-->
+                <div class="col-4 mr-lg-1 ">
+                    <li class='nav-item '>
+                        <a href="" class='nav-link'>Portal del admnistrador</a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-12 mb-5">
+            <button [routerLink]="['/principal',5]" routerLinkActive="router-link-active">PRINCIPAL</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="jumbotron">
+                <h3>Jumbotron</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloremque, mollitia accusantium sed odit repellendus adipisci quibusdam saepe velit dolor, architecto ad cupiditate est nam libero cum sequi. Architecto, sequi?</p>
+            </div>
+        </div>
+    </div>
+    <div class="row" style='margin-top:1000px'>
+        <div class='col'>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magnam eaque magni cumque delectus rem non voluptas adipisci excepturi sapiente architecto neque in, ad praesentium fuga totam cum. Suscipit, cupiditate.</p>
+        </div>
+    </div>
+</div>

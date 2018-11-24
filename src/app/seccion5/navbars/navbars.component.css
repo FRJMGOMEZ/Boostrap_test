@@ -1,0 +1,11 @@
+.mi-nav a {
+    color: white;
+}
+
+.mi-nav a:hover {
+    background: #AF3613
+}
+
+.mi-nav a:active {
+    background: #AF3613
+}
